@@ -26,7 +26,7 @@ const Navbar = () => {
             <img src={instagram} alt="" />
           </a>
           <a href="#">
-            <img src={threads} alt="threads" />
+            <img src={threads} alt="" />
           </a>
         </div>
       </div>

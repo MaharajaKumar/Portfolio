@@ -2,13 +2,19 @@ import { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
+import roommate from "../../assets/roommate.jpg";
+import music from "../../assets/music.jpg";
+import e_commerce_app from "../../assets/e_commerce_app.webp";
+import e_commerce_web from "../../assets/e_commerce_web.webp";
+import blog from "../../assets/blog.webp";
+
 const items = [
   {
     id: 1,
     title: "RoomMate React Native",
     buttonText: "Download",
     url: "",
-    img: "/roommate.jpg",
+    img: { roommate },
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
@@ -16,7 +22,7 @@ const items = [
     title: "Music App React Native",
     buttonText: "Download",
     url: "",
-    img: "/music.jpg",
+    img: { music },
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
@@ -24,7 +30,7 @@ const items = [
     title: "Ecommerce React Native",
     buttonText: "Download",
     url: "",
-    img: "/e_commerce_app.webp",
+    img: { e_commerce_app },
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
@@ -32,7 +38,7 @@ const items = [
     title: "Blog React",
     buttonText: "See Demo",
     url: "",
-    img: "/blog.webp",
+    img: { blog },
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
@@ -40,7 +46,7 @@ const items = [
     title: "Ecommerce Next",
     buttonText: "See Demo",
     url: "",
-    img: "/e_commerce_web.webp",
+    img: { e_commerce_web },
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
 ];
