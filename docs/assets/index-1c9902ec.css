@@ -300,7 +300,7 @@
   }
 }
 .parallax .stars {
-  background-image: url(/stars.png);
+  background-image: url(../stars.png);
   background-size: cover;
   background-position: bottom;
   width: 100%;
