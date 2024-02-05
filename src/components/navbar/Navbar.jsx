@@ -2,10 +2,6 @@ import "./navbar.scss";
 import Sidebar from "../sidebar/Sidebar";
 import { motion } from "framer-motion";
 
-import facebook from "../../assets/facebook.png";
-import instagram from "../../assets/instagram.png";
-import threads from "../../assets/threads.png";
-
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -20,13 +16,13 @@ const Navbar = () => {
         </motion.span>
         <div className="social">
           <a href="#">
-            <img src={facebook} alt="" />
+            <img src="/facebook.png" alt="" />
           </a>
           <a href="#">
-            <img src={instagram} alt="" />
+            <img src="/instagram.png" alt="" />
           </a>
           <a href="#">
-            <img src={threads} alt="" />
+            <img src="/threads.png" alt="" />
           </a>
         </div>
       </div>

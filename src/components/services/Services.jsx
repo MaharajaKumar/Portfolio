@@ -2,11 +2,6 @@ import { useRef } from "react";
 import "./services.scss";
 import { motion, useInView } from "framer-motion";
 
-import react from "../../assets/react.png";
-import expo from "../../assets/expo.png";
-import next from "../../assets/next.png";
-import express from "../../assets/express.png";
-
 const variants = {
   initial: {
     x: -500,
@@ -78,8 +73,8 @@ const Services = () => {
                 gap: "10px",
               }}
             >
-              <img src={react} alt="" />
-              <img src={expo} alt="" />
+              <img src="/react.png" alt="" />
+              <img src=".expo.png" alt="" />
             </div>
           </div>
 
@@ -97,7 +92,7 @@ const Services = () => {
         >
           <div className="listTitleContainer">
             <h2>React</h2>
-            <img src={react} alt="" />
+            <img src="/react.png" alt="" />
           </div>
           <p>
             I excel in React.js development, JavaScript, Redux/Context APIs,
@@ -113,7 +108,7 @@ const Services = () => {
         >
           <div className="listTitleContainer">
             <h2>Next</h2>
-            <img src={next} alt="" />
+            <img src="/expo.png" alt="" />
           </div>
           <p>
             I excel in Next.js development, JavaScript, SSR snd SSG(CSR),
@@ -130,7 +125,7 @@ const Services = () => {
         >
           <div className="listTitleContainer">
             <h2>Express</h2>
-            <img src={express} alt="" />
+            <img src="/express.png" alt="" />
           </div>
           <p>
             I excel in Express.js development, Node.js and JavaScript, RESTful

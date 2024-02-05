@@ -1,9 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
 
-import hero1 from "../../assets/hero1.png";
-import scroll from "../../assets/scroll.png";
-
 const textVariants = {
   initial: {
     x: -500,
@@ -63,7 +60,7 @@ const Hero = () => {
           <motion.img
             variants={textVariants}
             animate="scrollButton"
-            src={scroll}
+            src="/scroll.png"
             alt=""
           />
         </motion.div>
@@ -77,7 +74,7 @@ const Hero = () => {
         Mobile and Web applications
       </motion.div>
       <div className="imageContainer">
-        <img src={hero1} alt="" />
+        <img src="/hero1.png" alt="" />
       </div>
     </div>
   );
