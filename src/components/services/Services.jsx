@@ -74,7 +74,7 @@ const Services = () => {
               }}
             >
               <img src="/react.png" alt="" />
-              <img src=".expo.png" alt="" />
+              <img src="/expo.png" alt="" />
             </div>
           </div>
 
@@ -108,7 +108,7 @@ const Services = () => {
         >
           <div className="listTitleContainer">
             <h2>Next</h2>
-            <img src="/expo.png" alt="" />
+            <img src="/next.png" alt="" />
           </div>
           <p>
             I excel in Next.js development, JavaScript, SSR snd SSG(CSR),
