@@ -12,17 +12,29 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Maharaja Kumar
+          Crafting Code, Creating Experiences
         </motion.span>
         <div className="social">
-          <a href="#">
+          <a
+            href="https://www.facebook.com/profile.php?id=61554911109643&mibextid=LQQJ4d"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img src="/facebook.png" alt="" />
           </a>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/maharaja_vasugiri?igsh=ZnViczU4c28wcnNy&utm_source=qr"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/threads.png" alt="" />
+          <a
+            href="https://www.linkedin.com/in/maharaja-dev"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src="/linkedin.png" alt="" />
           </a>
         </div>
       </div>

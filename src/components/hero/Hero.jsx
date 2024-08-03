@@ -28,7 +28,7 @@ const sliderVariants = {
     x: 0,
   },
   animate: {
-    x: "-470%",
+    x: "-420%",
     transition: {
       repeat: Infinity,
       repeatType: "mirror",
@@ -48,7 +48,7 @@ const Hero = () => {
           animate="animate"
         >
           <motion.h2 variants={textVariants}>MAHARAJA KUMAR</motion.h2>
-          <motion.h1 variants={textVariants}>App developer</motion.h1>
+          <motion.h1 variants={textVariants}>Web developer</motion.h1>
           <motion.div variants={textVariants}>
             <motion.button className="button" variants={textVariants}>
               See my Works
@@ -71,10 +71,10 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Mobile and Web applications
+        iOS and Android apps
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero1.png" alt="" />
+        <img src="/hero.png" alt="" />
       </div>
     </div>
   );

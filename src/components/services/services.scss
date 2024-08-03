@@ -108,7 +108,7 @@
 
     .box {
       width: 900px;
-      height: auto;
+      height: 300px;
       padding: 30px;
       border: 0.5px solid gray;
       display: flex;
@@ -123,11 +123,11 @@
       }
 
       p {
-        /* overflow: hidden;
-        display: -webkit-box;
-        -webkit-line-clamp: 5;
-        -webkit-box-orient: vertical;
-        text-overflow: ellipsis; */
+        // overflow: hidden;
+        // display: -webkit-box;
+        // -webkit-line-clamp: 5;
+        // -webkit-box-orient: vertical;
+        // text-overflow: ellipsis;
         @include mobile {
           display: none;
         }
